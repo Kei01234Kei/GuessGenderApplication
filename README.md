@@ -16,5 +16,5 @@ pip3 install -r requirements.txt
 2. サーバの起動
 
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --host 0.0.0.0
 ```
